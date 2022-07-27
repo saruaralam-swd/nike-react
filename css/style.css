@@ -1,0 +1,57 @@
+:root {
+  --bebas: "Bebas Neue", cursive;
+  --roboto: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--roboto);
+}
+
+.banner_bg {
+  background-color: #fff9f4;
+}
+
+/*banner section start*/
+.highlight,
+.orange {
+  font-family: var(--bebas);
+}
+
+.highlight {
+  color: #363958;
+}
+
+.orange {
+  color: orange;
+}
+/*banner section end */
+
+/*card & shopping box start*/
+.card,
+.shopping_box {
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 5px 6px 12px lightgray;
+}
+
+.card:hover,
+.shopping_box:hover {
+  transition: all ease 0.3s;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card_img {
+  background-color: #f1f1f1;
+  border-radius: 15px;
+}
+
+.card_img,
+.align {
+  text-align: center;
+}
+/*card & shoppign box end*/
+
+.shopping_box img {
+  width: 100px;
+}
